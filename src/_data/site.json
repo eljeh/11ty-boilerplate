@@ -1,0 +1,14 @@
+{
+	"name" : "site name",
+  "tagline":"tagline",
+	"url":"http://domain.com",
+	"logo": "",
+	"favicon":"",
+	"icon16":"",
+	"icon192":"",
+	"thumbnail":"",
+	"themeColor":"#ffa600",
+	"publisher":"name",
+	"locale":"locale",
+	"companytype":""
+}

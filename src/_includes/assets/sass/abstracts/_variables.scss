@@ -1,0 +1,29 @@
+// '/assests/css/scss/abstracts/_variables.scss'
+
+:root {
+  // Font Family
+  --ff-header: 'Lato', sans-serif;
+  --ff-body: 'Raleway', sans-serif;
+
+  // Font size
+  --fs-default: calc(6.63vw + 1rem);
+  --fs-base: --fs-default;
+
+  --fs-base: calc(var(--fs-default) / calc(1.618 * 3));
+  --fs-1: calc(var(--fs-default) / calc(1.618 * 0));
+  --fs-50: calc(var(--fs-default) / calc(1.618 * 0.5));
+  --fs-100: calc(var(--fs-default) / calc(1.618 * 1));
+  --fs-150: calc(var(--fs-default) / calc(1.618 * 1.5));
+  --fs-200: calc(var(--fs-default) / calc(1.618 * 2));
+
+  @media screen and (min-width: 1080px) {
+    --fs-default: calc(3.63vw + 1rem);
+  }
+
+  // Font Weight
+  --fw-extralight: 100;
+  --fw-light: 300;
+  --fw-normal: 400;
+  --fw-bold: 700;
+  --fw-extraBold: 900;
+}
